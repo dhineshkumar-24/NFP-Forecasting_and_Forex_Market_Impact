@@ -1,0 +1,62 @@
+{
+  "trained_on": "2026-06-11T14:27:50.568493",
+  "feature_cols": [
+    "surprise_magnitude",
+    "surprise_positive",
+    "surprise_large",
+    "surprise_very_large",
+    "consensus_forecast",
+    "consensus_low",
+    "consensus_high",
+    "surprise_lag1",
+    "surprise_lag2",
+    "surprise_3m_avg",
+    "recent_beats_3m",
+    "recent_beats_6m",
+    "month",
+    "quarter",
+    "s2_beat_prob",
+    "s2_confidence",
+    "s2_strong_beat",
+    "s2_strong_miss"
+  ],
+  "asset_results": {
+    "Gold": {
+      "accuracy": 50.0,
+      "mae_pct": 0.726,
+      "n_samples": 95,
+      "up_rate": 58.9
+    },
+    "EURUSD": {
+      "accuracy": 58.3,
+      "mae_pct": 0.298,
+      "n_samples": 95,
+      "up_rate": 49.5
+    },
+    "DXY": {
+      "accuracy": 54.2,
+      "mae_pct": 0.363,
+      "n_samples": 95,
+      "up_rate": 40.0
+    },
+    "10Y_Yield": {
+      "accuracy": 58.3,
+      "mae_pct": 1.373,
+      "n_samples": 95,
+      "up_rate": 55.8
+    },
+    "SP500": {
+      "accuracy": 50.0,
+      "mae_pct": 1.003,
+      "n_samples": 95,
+      "up_rate": 61.1
+    }
+  },
+  "assets": [
+    "Gold",
+    "EURUSD",
+    "DXY",
+    "10Y_Yield",
+    "SP500"
+  ]
+}
